@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 0.2rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.active {
+    background: blue;
+    color: #fff;
+    border: none;
+}
+
+.none {
+    display: none;
+}
